@@ -96,7 +96,7 @@ export default function Experience() {
           className="mb-16"
         >
           <p className="text-violet-400 text-xs font-mono font-semibold tracking-widest uppercase mb-3">
-            // Experience
+            {`// Experience`}
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">Where I&apos;ve Worked</h2>
         </motion.div>

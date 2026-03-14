@@ -22,15 +22,21 @@ export default function Hero() {
 
       {/* ── Content ── */}
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        {/* Status badge */}
+        {/* Status badges */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-sm font-medium mb-8"
+          className="flex flex-wrap items-center justify-center gap-3 mb-8"
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
-          Open to opportunities · Hyderabad, India
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-sm font-medium">
+            <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
+            Open to opportunities · Hyderabad, India
+          </div>
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-300 text-sm font-medium">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            Available for freelance
+          </div>
         </motion.div>
 
         {/* Name */}

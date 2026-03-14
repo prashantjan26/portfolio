@@ -28,7 +28,7 @@ export default function BeyondWork() {
           className="mb-14"
         >
           <p className="text-violet-400 text-xs font-mono font-semibold tracking-widest uppercase mb-3">
-            // Beyond Work
+            {`// Beyond Work`}
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">The Human Side</h2>
         </motion.div>

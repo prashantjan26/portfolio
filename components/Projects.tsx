@@ -16,7 +16,7 @@ export default function Projects() {
           className="mb-16"
         >
           <p className="text-violet-400 text-xs font-mono font-semibold tracking-widest uppercase mb-3">
-            // Projects
+            {`// Projects`}
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">Impact Work</h2>
         </motion.div>

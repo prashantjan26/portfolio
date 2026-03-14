@@ -22,7 +22,7 @@ export default function About() {
           className="mb-16"
         >
           <p className="text-violet-400 text-xs font-mono font-semibold tracking-widest uppercase mb-3">
-            // About
+            {`// About Me`}
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">The Journey</h2>
         </motion.div>
@@ -37,7 +37,7 @@ export default function About() {
             className="space-y-5 text-slate-300 leading-[1.85] text-[1.0625rem]"
           >
             <p>
-              I'm a data professional who started by building things — and evolved into someone
+              I&apos;m a data professional who started by building things — and evolved into someone
               obsessed with understanding what happens inside them.
             </p>
             <p>
@@ -58,9 +58,14 @@ export default function About() {
               <span className="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent font-semibold">
                 Data Analyst → AI Engineer
               </span>
-              ) isn't just a title update. It's a deliberate path: deepening ML knowledge,
+              ) isn&apos;t just a title update. It&apos;s a deliberate path: deepening ML knowledge,
               understanding systems end-to-end, and eventually building AI products that solve
               real problems.
+            </p>
+            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+              Now, I&apos;m transitioning toward AI Engineering, exploring how large language
+              models and agentic workflows can automate the very analysis I&apos;ve spent years
+              perfecting.
             </p>
             <p className="text-slate-400">
               Long-term goal? Entrepreneurship. Building things that matter.

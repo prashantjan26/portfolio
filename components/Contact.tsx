@@ -46,7 +46,7 @@ export default function Contact() {
           className="mb-5 text-center"
         >
           <p className="text-violet-400 text-xs font-mono font-semibold tracking-widest uppercase mb-3">
-            // Contact
+            {`// Contact`}
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Let&apos;s Connect</h2>
           <p className="text-slate-400 text-lg leading-relaxed">
